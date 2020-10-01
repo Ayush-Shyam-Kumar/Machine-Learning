@@ -19,6 +19,9 @@ Euclidean distance of a point in n-dimensional space is given by the Pythagorean
 ![d({\rm{p, q) = }}d({\rm{q, p) = }}\sqrt {{{\left( {{{\rm{q}}_1} - {{\rm{p}}_1}} \right)}^2} + ...... + {{\left( {{{\rm{q}}_n} - {{\rm{p}}_n}} \right)}^2}} ](http://chart.apis.google.com/chart?cht=tx&chs=1x0&chf=bg,s,FFFFFF00&chco=000000&chl=d%28%7B%5Crm%7Bp%2C%20q%29%20%3D%20%7D%7Dd%28%7B%5Crm%7Bq%2C%20p%29%20%3D%20%7D%7D%5Csqrt%20%7B%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_1%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_1%7D%7D%20%5Cright%29%7D%5E2%7D%20%2B%20......%20%2B%20%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_n%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_n%7D%7D%20%5Cright%29%7D%5E2%7D%7D%20)  
 Our data set belongs to 2-D space or R<sup>2</sup> space, hence the distance between two points is given as below :
 ![d({\rm{p, q) = }}d({\rm{q, p) = }}\sqrt {{{\left( {{{\rm{q}}_1} - {{\rm{p}}_1}} \right)}^2} + {{\left( {{{\rm{q}}_2} - {{\rm{p}}_2}} \right)}^2}} ](http://chart.apis.google.com/chart?cht=tx&chs=1x0&chf=bg,s,FFFFFF00&chco=000000&chl=d%28%7B%5Crm%7Bp%2C%20q%29%20%3D%20%7D%7Dd%28%7B%5Crm%7Bq%2C%20p%29%20%3D%20%7D%7D%5Csqrt%20%7B%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_1%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_1%7D%7D%20%5Cright%29%7D%5E2%7D%20%2B%20%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_2%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_2%7D%7D%20%5Cright%29%7D%5E2%7D%7D%20)  
+Source : [Euclidean Distance](https://en.wikipedia.org/wiki/Euclidean_distance)
+
+---
 #### Algorithmic Breakdown
 
 The code attached implements the Kmeans Clustering in 2-Dimensional space and the algorithmic breakdown is as follows :-
