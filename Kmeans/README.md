@@ -18,4 +18,47 @@ The Kmeans algorithm can be expressed as an optimization problem, where our obje
 Euclidean distance of a point in n-dimensional space is given by the Pythagorean formula as below :
 ![d({\rm{p, q) = }}d({\rm{q, p) = }}\sqrt {{{\left( {{{\rm{q}}_1} - {{\rm{p}}_1}} \right)}^2} + ...... + {{\left( {{{\rm{q}}_n} - {{\rm{p}}_n}} \right)}^2}} ](http://chart.apis.google.com/chart?cht=tx&chs=1x0&chf=bg,s,FFFFFF00&chco=000000&chl=d%28%7B%5Crm%7Bp%2C%20q%29%20%3D%20%7D%7Dd%28%7B%5Crm%7Bq%2C%20p%29%20%3D%20%7D%7D%5Csqrt%20%7B%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_1%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_1%7D%7D%20%5Cright%29%7D%5E2%7D%20%2B%20......%20%2B%20%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_n%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_n%7D%7D%20%5Cright%29%7D%5E2%7D%7D%20)  
 Our data set belongs to 2-D space or R<sup>2</sup> space, hence the distance between two points is given as below :
-![d({\rm{p, q) = }}d({\rm{q, p) = }}\sqrt {{{\left( {{{\rm{q}}_1} - {{\rm{p}}_1}} \right)}^2} + {{\left( {{{\rm{q}}_2} - {{\rm{p}}_2}} \right)}^2}} ](http://chart.apis.google.com/chart?cht=tx&chs=1x0&chf=bg,s,FFFFFF00&chco=000000&chl=d%28%7B%5Crm%7Bp%2C%20q%29%20%3D%20%7D%7Dd%28%7B%5Crm%7Bq%2C%20p%29%20%3D%20%7D%7D%5Csqrt%20%7B%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_1%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_1%7D%7D%20%5Cright%29%7D%5E2%7D%20%2B%20%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_2%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_2%7D%7D%20%5Cright%29%7D%5E2%7D%7D%20)
+![d({\rm{p, q) = }}d({\rm{q, p) = }}\sqrt {{{\left( {{{\rm{q}}_1} - {{\rm{p}}_1}} \right)}^2} + {{\left( {{{\rm{q}}_2} - {{\rm{p}}_2}} \right)}^2}} ](http://chart.apis.google.com/chart?cht=tx&chs=1x0&chf=bg,s,FFFFFF00&chco=000000&chl=d%28%7B%5Crm%7Bp%2C%20q%29%20%3D%20%7D%7Dd%28%7B%5Crm%7Bq%2C%20p%29%20%3D%20%7D%7D%5Csqrt%20%7B%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_1%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_1%7D%7D%20%5Cright%29%7D%5E2%7D%20%2B%20%7B%7B%5Cleft%28%20%7B%7B%7B%5Crm%7Bq%7D%7D_2%7D%20-%20%7B%7B%5Crm%7Bp%7D%7D_2%7D%7D%20%5Cright%29%7D%5E2%7D%7D%20)  
+#### Algorithmic Breakdown
+
+The code attached implements the Kmeans Clustering in 2-Dimensional space and the algorithmic breakdown is as follows :-
+
+1. Load the 2-dimensional data set.
+
+2. Input the 'K' value for Kmeans Clustering.
+
+3. Select random 'K' data points from our loaded data set, which will be the initial centroids.
+
+4. Compute the distances of each data point from the initial centroids, and assign the data to the centroid, which is closest to the point, this is the labelling process.
+
+5. Compute the average position of the centroids from the labelled data points, to obtain new 'K' centroids.
+
+6. Repeat the the process of computation of centroid, by passing the newly obtained mean centroid and the data set labeled iterating over a loop, till the newly obtained centroid is same as the previous centroid.
+
+   ---
+#### Advantages
+
+- Identifies non-linear and inseparable data set.
+
+- Scales to large data set.
+
+- Unlabeled
+
+- Computationally Faster
+
+- Tighter Clusters
+
+  ---
+  
+   #### Disadvantages
+
+- Undetermined cluster centers K.
+
+- Random initial cluster centers.
+
+- Not suitable to identify clusters with non-convex shapes, may get stuck in its local minimum.
+
+- Euclidean distance is robust to outliners.
+
+  ---
+## Kmeans Clustering algorithm is classified as NP-Hard problem
