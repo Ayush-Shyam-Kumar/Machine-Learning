@@ -50,7 +50,7 @@ The code attached implements the Kmeans Clustering in 2-Dimensional space and th
 
   ---
   
-   #### Disadvantages
+#### Disadvantages
 
 - Undetermined cluster centers K.
 
