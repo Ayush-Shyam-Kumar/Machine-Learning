@@ -18,7 +18,7 @@ plot(x, ycap); % plot the regression line
 xlabel('independent variable x')
 ylabel('dependent variable y')
 ev =yd-ycap; % error vector.
-% Verify that error vector is orthogonal to column vectors of A
+% Verifying that error vector is orthogonal to column vectors of A
 Check = A'*ev ;
 % print check on screen
 Format bank
