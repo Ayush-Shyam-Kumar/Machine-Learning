@@ -64,4 +64,4 @@ The code attached implements the Kmeans Clustering in 2-Dimensional space and th
 - Euclidean distance is robust to outliners.
 
   ---
-## Kmeans Clustering algorithm is classified as NP-Hard problem
+## Kmeans Clustering algorithm is classified as NP-Hard problem.
