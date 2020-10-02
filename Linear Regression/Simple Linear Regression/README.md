@@ -5,6 +5,7 @@ When the number of explanatory variable is only one for Linear Regression, It is
 2. To values of dependent variable for a given value of independent variable.  
 ### Linear Algebraic Interpretation of Simple Linear Regression
 <img src="https://user-images.githubusercontent.com/65535504/94936175-8af3ef00-04eb-11eb-9209-a06ed5eaba94.jpg" width="300" height="300">  
+
 ### Parameter Estimation
 - The matrix A is the design matrix.
 - The vector alpha holds is the parameter vector.
