@@ -1,58 +1,10 @@
-$$
-\begin{array}{l}
-{\rm{Equation of a line is given by : }}y = mx + c + e\\
-{\rm{Formulating in terms of matrices,}}\\
-\left[ {\begin{array}{*{20}{c}}
-{{y_1}}\\
-{{y_2}}\\
- \vdots \\
-{{y_n}}
-\end{array}} \right]{\rm{ = }}\left[ {\begin{array}{*{20}{c}}
-{m{x_1} + c}\\
-{m{x_2} + c}\\
- \vdots \\
-{m{x_n} + c}
-\end{array}} \right]\left[ {\begin{array}{*{20}{c}}
-{{e_1}}\\
-{{e_2}}\\
- \vdots \\
-{{e_n}}
-\end{array}} \right] \Rightarrow \left[ {\begin{array}{*{20}{c}}
-{{x_1}}&1\\
-{{x_2}}&1\\
- \vdots & \vdots \\
-{{x_n}}&1
-\end{array}} \right]\left[ {\begin{array}{*{20}{c}}
-m\\
-c
-\end{array}} \right] + \left[ {\begin{array}{*{20}{c}}
-{{e_1}}\\
-{{e_2}}\\
- \vdots \\
-{{e_n}}
-\end{array}} \right]\\
-{\rm{Using\ linear\ algebra,}}
-{\rm{A}}x + e{\rm{ = b}}\\
-\mathop {\left[ {\begin{array}{*{20}{c}}
-{{x_1}}&1\\
-{{x_2}}&1\\
- \vdots & \vdots \\
-{{x_n}}&1
-\end{array}} \right]}\limits_{\rm{A}} \mathop {\left[ {\begin{array}{*{20}{c}}
-m\\
-c
-\end{array}} \right]}\limits_\alpha   + \mathop {\left[ {\begin{array}{*{20}{c}}
-{{e_1}}\\
-{{e_2}}\\
- \vdots \\
-{{e_n}}
-\end{array}} \right]}\limits_e  = \mathop {\left[ {\begin{array}{*{20}{c}}
-{{y_1}}\\
-{{y_2}}\\
- \vdots \\
-{{y_n}}
-\end{array}} \right]}\limits_Y \\
+<img src="https://user-images.githubusercontent.com/65535504/94936175-8af3ef00-04eb-11eb-9209-a06ed5eaba94.jpg" width="400" height="400">  
 
-\end{array}\
-$$
+- The matrix A is the design matrix.
+- The vector alpha holds is the parameter vector.
+- The vector e is the error vector.
+- The vector Y is the Response vector  
+<img src="https://user-images.githubusercontent.com/65535504/94939373-ab25ad00-04ef-11eb-9a34-830ef7e80681.jpg" width="400" height="400">    
+<img src="https://user-images.githubusercontent.com/65535504/94939445-cb556c00-04ef-11eb-898d-60bfec5c4a51.jpg" width="360" height="250"> 
 
+### The vector Y-hat describes our regression line for our data points.
