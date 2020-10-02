@@ -1,7 +1,4 @@
-# Linear Regression
-
-Linear Regression is a statistical analysis by modelling a relationship between explanatory variables, also termed as independent variables, and its scalar response, depended on considered explanatory variables.  
-### Simple Linear Regression
+# Simple Linear Regression
 
 When the number of explanatory variable is only one for Linear Regression, It is called Simple Linear Regression.
 ### Linear Algebraic Interpretation of Simple Linear Regression
