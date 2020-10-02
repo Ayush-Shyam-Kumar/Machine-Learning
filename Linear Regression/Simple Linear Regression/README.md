@@ -11,7 +11,8 @@ When the number of explanatory variable is only one for Linear Regression, It is
 - The vector alpha holds is the parameter vector.
 - The vector e is the error vector.
 - The vector Y is the Response vector  
-<img src="https://user-images.githubusercontent.com/65535504/94939373-ab25ad00-04ef-11eb-9a34-830ef7e80681.jpg" width="300" height="300">    
+<img src="https://user-images.githubusercontent.com/65535504/94939373-ab25ad00-04ef-11eb-9a34-830ef7e80681.jpg" width="300" height="300">  
 <img src="https://user-images.githubusercontent.com/65535504/94939445-cb556c00-04ef-11eb-898d-60bfec5c4a51.jpg" width="280" height="180"> 
+Solving Normal Equation obtains the parameter vector.  
 
-#### The vector Y-hat describes our regression line for our data points.
+### The vector Y-hat describes our regression line for our data points.
